@@ -1,0 +1,44 @@
+.loginDiv{
+    h1{
+        color: rgb(104, 102, 102);
+        font-size: 1.8rem;
+        margin: 1.5rem;
+    }
+    
+    input{
+        padding: 1.2rem;
+        margin: 1.2rem;
+        font-size: 1.2rem;
+        border: 0;
+        border-bottom: 1px solid rgb(104, 102, 102);
+        :focus{
+            outline: none;
+        }
+    }
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    div{
+        background-color: white;
+        border-radius: 1rem;
+    }
+    
+    p{
+        color: rgb(104, 102, 102);
+        font-size: 1.2rem;
+    }
+    
+    button{
+        padding: 1rem;
+        font-size: 1.2rem;
+        width: 50%;
+        color: rgb(104, 102, 102);
+        border: 0;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+}
